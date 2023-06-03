@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archexagon</title>
+    <link rel="stylesheet" href="./style/mainstyle.css">
+    <link rel="stylesheet" href="">
+    <link rel="icon" href="./img/web-icon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+   
+
+<!-- Navigation Section and Hero-content-->
+
+    <div class="container">
+        <div class="container-cover"></div>
+        <div class="navbar">
+            <img class="main-logo" src="./img/main-logo.png" onclick="location.href='#back'">
+
+            <!-- <img id="bar" type="button" src="./img/menu.png"> -->
+
+            <i class="fa-solid fa-bars-progress"></i>
+
+            <ul id="sidemenu">
+                <img class="side-logo" src="./img/main-logo.png" onclick="location.href='#back'">
+                <li><a href="#about-bookmark">about me</a></li>
+                <li><a href="#">works</a></li>
+                <li><a href="#services-bookmark">services</a></li>
+                <li><a href="#contact-bookmark" class="concon"> Hire me</a></li>
+
+         
+            </ul>
+     
+        </div>
+
+<!---------Script for navbar---------->
+        <script>
+            var sidemenu = document.getElementById('sidemenu');
+
+            var click = document.querySelector('.fa-solid');
+        
+            click.onclick = function openside(){
+                if(sidemenu.style.left == "-170px"){
+                    sidemenu.style.left = "0px";
+                }else{
+                    sidemenu.style.left = "-170px";
+                }
+            }
+
+        </script>
+
+<!------------------->
+        <div class="hero-parent" id="back">
+
+            
+            <span> Hi! I'm Arche Angana</span>
+
+            <div class="hero-heading">
+                 <div class="typing">FRONT-END WEB DEV</div>
+                 <span  class="gradient">/DESIGNER</span>
+                
+            </div>
+                <p> Aspiring Front-end Web Developer and Graphic Designer.</p>
+        </div>
+        
+        <div class="filter-1"></div>
+        <div class="filter-2"></div>
+        <div class="filter-3"></div>
+        <div class="filter-4"></div>
+    </div>
+
+<!-- Navigation Section and Hero-content END-->
+
+<!-- About-Section-->
+    <div class="primary-about-section" id="about-bookmark">
+
+            <div class="about-header">
+                <p> About</p>
+
+                <div class="scroll-main" id="scroll-main">
+
+                    <!-- <div  class="icon-container"> -->
+                        <img src="./img/facebook.png" alt="">
+                        <img src="./img/Instagram.png" alt="">
+                        <img src="" alt="">
+                    <!-- </div> -->
+                  
+                </div>
+
+            </div>
+
+            <div class="about-content">
+            <img src="#" data-tilt data-tilt-glare>
+            <script src="./js/tilt.js"></script>
+
+            <div class="about-navigation"> 
+                <h1 class="header-experience"> Get to know me</h1>
+                <p> I am a 3rd year BSGD student at CEBU TECHNOLOGICAL UNIVERSITY Main - Campus and a passionate web designer and graphic designer. With my knowledge, I strive to give you with the best service possible. 
+                </p>
+            </div>
+            </div>  
+            
+            <div class="about-content-job">
+                <div class="about-job-child">
+                    <h1 class="head"> My skills</h1>
+                    <p> Using my skills I'll make sure 
+                    </p>
+                </div>
+
+                <img src="#" width="400px" height="300px" data-tilt data-tilt-glare>
+                <script src="./js/tilt.js"></script>
+            </div>
+
+            
+    </div>
+<!-- About-Section boundary-->
+
+<!-- Portfolio section-->
+    <div class="primary-portfolio-section">
+        <div class="curvy"></div>
+
+        
+        <div class="portfolio-box">
+            
+            <div class="box-item" id="item-1">
+                <img src="" alt="">
+            </div>
+
+            <div class="box-item" id="item-2">
+                <img src="" alt="">
+            </div>
+
+            <div class="box-item" id="item-3">
+                <img src="" alt="">
+            </div>
+
+            <div class="box-item" id="item-4">
+                <img src="" alt="">
+            </div>
+
+            <div class="box-item" id="item-5">
+                <img src="" alt="">
+            </div>
+
+            <div class="box-item" id="item-6">
+                <img src="" alt="" >
+            </div>
+
+            
+        </div>
+
+
+<!--
+        <div class="links-container">
+            <div class="links"><a href="#item-1">10</a></div>
+            <div class="links"><a href="#item-2">10</a></div>
+            <div class="links"><a href="#item-3">10</a></div>
+            <div class="links"><a href="#item-4">10</a></div>
+            <div class="links"><a href="#item-5">10</a></div>
+            <div class="links"><a href="#item-6">10</a></div>
+        </div> -->
+    </div>
+<!-- Portfolio-boundary-->
+
+<!-- Service Section-->
+    <div class="primary-services" id="services-bookmark">
+    <div class="bg-cover"></div>
+    
+                <div class="merketing-service">
+                    <h1> Services/Skills </h1> 
+
+                    <div class="service-1">
+
+                        <div class="service-content">
+                            <h3>Digital Assets</h3>
+                            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos a voluptatem error.</p>
+
+
+                            <div class="mob-content-1 mob-child"><h4> Logo design</h4></div>
+
+                            <div class="mob-content-2 mob-child"> <h4> Digital Ads</h4></div>
+                            
+                           
+                    
+                        </div>
+
+                        <div class="service-content-1">
+
+                            <img src="./img/dig-ads.png">
+                            <h3>Digital Ads</h3>
+                            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos a voluptatem error.</p>
+                            
+                            <a href="Marketing-Payout.html"> Avail now</a>
+                            <div class="servce-icon"></div>
+                        </div>
+
+                        <div class="service-content-2">
+                           <img src="./img/logo.png">
+                            <h3>Logo Design</h3>
+                            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos a voluptatem error.</p>
+                            <a href="#"> Avail now</a>
+                        </div>
+
+                    </div>
+                    </div>
+
+                    
+                    <div class="product-service">
+
+                        <div class="product-content">
+                            <h3>Web design</h3>
+                            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos a voluptatem error.</p>
+
+                            <div class="mob-product-1 mob-child"><h4>
+                                UX(User Experience)
+                            </h4></div>
+
+                            <div class="mob-product-2 mob-child"><h4>
+                                UI(User Interface)
+                            </h4></div>
+                            
+                        </div>
+
+                         <div class="product-content-1">
+                             <h3>UX(User Experience)</h3>
+                             <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos a voluptatem error.</p>
+                            <a href="#"> Avail now</a>
+                         </div>
+
+                        <div class="product-content-2">
+                            <h3>UI(User Interface)</h3>
+                            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos a voluptatem error.</p>
+                           <a href="#"> Avail now</a>
+                                    
+                        </div>
+
+                    </div>
+
+                    
+                    <div class="illustration-service">
+
+                        
+                        <div class="illustration-content">
+                            <h3>Illustrations</h3>
+                            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos a voluptatem error.</p>
+
+                            <div class="mob-illustration traditional"><h4>
+                                Traditional
+                            </h4></div>
+
+                            <div class="mob-illustration digital"><h4>
+                                Digital
+                            </h4></div>
+
+
+                            
+                        </div>
+
+
+                        <div class="illustration-content-1">
+                            <h3>Traditional</h3>
+                            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos a voluptatem error.</p>
+                           <a href="#"> Avail Now</a>
+                        </div>
+
+
+                        <div class="illustration-content-2 crucial">
+                            <h3>Digital</h3>
+                            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos a voluptatem error.</p>
+                           <a href="#"> Avail Now</a>
+                        </div>
+
+                    </div>
+
+        <div class="bg-oval"></div>
+
+
+        
+
+    </div>
+<!-- Service-Section-boundary -->  
+
+<!-- Call to Action-section-->
+    <div class="CTA-section">
+        <div class="CTA-content">
+                <div class="CTA-parag">
+                    <h2> LET'S BREW SOMETHING TOGETHER.</h2>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur architecto tenetur quod aperiam. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <button type="button" class="CTA-btn"> Get in Touch</button>
+        </div>
+    </div>
+<!-- CTA-boundary-->
+
+<!-- Footer -->
+    <div class="footer-wrapper">
+
+    <div class="footer-child-container">
+        <div class="footer-child-1"><h1> Logo </h1></div>
+
+        <div class="footer-child-2">
+            <p>Cebu Technological University</p>
+            <p>lreom</p>
+            <p>lorem</p>
+        </div>
+
+        <div class="footer-child-3">
+            <p>Contact</p>
+            <p>+63 09984596370</p>
+            <p>archeangana@gmail.com</p>
+        </div>
+
+        <div class="footer-child-4">
+            <p>Follow us</p>
+            <span><img src=#></span>
+            <span><img src=#></span>
+            <span><img src=#></span>
+            <span><img src=#></span>
+        </div>
+    </div>
+    </div>
+<!-- Footer boundary-->
+
+</body>
+</html>
